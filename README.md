@@ -1,2 +1,1 @@
-# Portfolio-Website
-Thinkful Portfolio
+# Andrew Furrer Portfolio Website
