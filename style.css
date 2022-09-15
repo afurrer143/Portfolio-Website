@@ -1,4 +1,4 @@
-
+/* Importing roboto font for site */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 header {
@@ -31,6 +31,8 @@ main {
   margin-right: 25%;
 }
 
+/* Cropping main image of myslef on top of page*/
+
 .crop {
   display: block;
   margin-top: 2%;
@@ -51,12 +53,16 @@ main {
   text-align: left;
 }
 
+/*Setting the 3 images in a single row */
+
 .column {
   float: left;
   width: 32%;
   padding: 8px;
   text-align: center;
 }
+
+/* Setting image slightly transparent */
 
 .opacity{
   opacity: 0.8;
@@ -66,6 +72,26 @@ main {
   content: "";
   clear: both;
   display: table;
+}
+
+/* Clearing the row setting so it doesn't apply to later things */
+
+/*Styling links under the projects */
+
+a:link{
+color:#a76ee0
+}
+
+a:visited {
+color:#531276
+}
+
+a:hover{
+color:#BEBBBB
+}
+
+a:active{
+color:#b73c1a
 }
 
 footer{
